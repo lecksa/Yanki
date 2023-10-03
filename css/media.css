@@ -1,0 +1,371 @@
+.burger {
+    display: none;
+}
+
+@media (max-width: 1199.98px) {
+    .wrap {
+        width: 960px;
+    }
+    .but {
+        margin-inline: 150px;
+    }
+    .but {
+        margin-inline: 150px;
+    }
+}
+
+@media (max-width: 992.98px) {
+    .wrap {
+        width: 720px;
+    }
+
+    .but {
+        margin-inline: 30px;
+    }
+
+    .header {
+        margin-inline: -90px;
+    }
+    .catalog_item {
+        height: 350px;
+    }
+    .block {
+        top: 300px;
+        height: 50px;
+    }
+    .catalog {
+        height: 0;
+        margin-bottom: 520px;
+    }
+    .catalog h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .wrap {
+        width: 540px;
+    }
+
+    .promo {
+        height: 700px;
+    }
+
+    .promo h1 {
+        margin-top: 230px;
+    }
+
+    .input {
+        width: 480px;
+    }
+
+    .btn {
+        width: 480px;
+    }
+
+    .but {
+        margin-inline: -5px;
+    }
+
+    .header {
+        margin-inline: -90px -70px;
+    }
+
+    .menu {
+        gap: 10px;
+    }
+
+    .icons {
+        gap: 10px;
+    }
+
+    #eight {
+        grid-column: 2/3;
+    }
+
+    #seven {
+        grid-column: 1/2;
+    }
+
+    .footer_box {
+        margin-inline: 60px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .catalog_box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .catalog_item {
+        height: 300px;
+    }
+    .block {
+        height: 50px;
+        top: 250px;
+    }
+
+    #three {
+        grid-column: 1/2;
+    }
+
+    #four {
+        grid-column: 2/3;
+    }
+
+    .catalog {
+        margin-bottom: 800px;
+        height: 0;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .wrap {
+        width: 100%;
+    }
+
+    .header {
+        margin-inline: -15px;
+        padding-top: 24px;
+    }
+
+    .promo h1 {
+        font-size: 34px;
+    }
+
+    .promo a {
+        font-size: 16px;
+    }
+
+    .arrow {
+        margin-bottom: -2px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .promo {
+        height: 670px;
+    }
+
+    .burger {
+        background: none;
+        border: none;
+        display: flex;
+    }
+
+    .yanki {
+        margin-left: 10px;
+    }
+
+    .seek {
+        display: none;
+    }
+
+    .person {
+        display: none;
+    }
+
+    .catalog {
+        margin-bottom: 520px;
+    }
+
+    .catalog h2 {
+        font-size: 24px;
+    }
+
+    .catalog h3 {
+        font-size: 18px;
+    }
+
+    .catalog_box {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .catalog_item {
+        width: 230px;
+        height: 370px;
+    }
+
+    .block {
+        height: 45px;
+        top: 325px;
+    }
+
+    #three {
+        display: none;
+    }
+
+    #four {
+        display: none;
+    }
+
+    .subscription h2 {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 14px;
+        width: 480px;
+    }
+
+    .input {
+        font-size: 14px;
+        width: 480px;
+    }
+
+    .but {
+        margin-inline: 0;
+    }
+
+    .subscription p {
+        font-size: 14px;
+    }
+
+    .footer h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer a {
+        font-size: 16px;
+    }
+
+    .footer_item {
+        margin-bottom: 10px;
+    }
+
+    .footer_box {
+        margin-inline: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .wrap {
+        width: 100%;
+    }
+
+    .header {
+        margin-inline: 10px;
+        padding-top: 20px;
+    }
+
+    .promo h1 {
+        font-size: 32px;
+        margin-top: 170px;
+    }
+
+    .promo a {
+        font-size: 14px;
+    }
+
+    .arrow {
+        margin-bottom: -2px;
+        width: 14px;
+        height: 14px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .promo {
+        height: 570px;
+        margin-bottom: 50px;
+    }
+
+    .burger {
+        background: none;
+        border: none;
+        display: flex;
+        margin-left: -30px;
+    }
+
+    .yanki {
+        width: 100px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .seek {
+        display: none;
+    }
+
+    .person {
+        display: none;
+    }
+
+    .icons {
+        width: 20px;
+        height: 20px;
+    }
+
+    .catalog {
+        margin-bottom: 300px;
+    }
+
+    .catalog h2 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .catalog h3 {
+        font-size: 16px;
+    }
+
+    .catalog_box {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .catalog_item {
+        width: 120px;
+        height: 190px;
+    }
+
+    .block {
+        height: 30px;
+        top: 160px;
+    }
+
+    #three {
+        display: none;
+    }
+
+    #four {
+        display: none;
+    }
+
+    .subscription h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .btn {
+        font-size: 14px;
+        width: 250px;
+    }
+
+    .input {
+        font-size: 14px;
+        width: 250px;
+    }
+    .but {
+        margin-inline: 0;
+    }
+
+    .subscription p {
+        font-size: 14px;
+    }
+
+    .footer_box {
+        display: inline;
+    }
+
+    .footer_item {
+        margin-bottom: 10px;
+    }
+}
